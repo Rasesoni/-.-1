@@ -12,6 +12,7 @@ public class Main {
     students.add("c");
     students.add("3");
     System.out.println(students);
+    students.clear()
     
 
   }
