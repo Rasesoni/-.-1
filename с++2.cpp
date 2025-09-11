@@ -5,7 +5,7 @@ int main() {
     for (int i = 0; i < 6; i += 2) {
         cout << list[i] << " ";
     }
-    cout << std::endl;
+    cout << endl;
     for (int i = 1; i < 6; i += 2) {
         cout << list[i] << " ";
     }
