@@ -12,6 +12,6 @@ int main() {
             lowlet += str[i];  
         }
     }
-    cout << "Заглавные буквы: " << uplet << endl;
-    cout << "Строчные буквы: " << lowlet << endl;
+    cout << "big_lett " << uplet << endl;
+    cout << "small_lett= " << lowlet << endl;
 }
