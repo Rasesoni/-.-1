@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         String input = "AaBbCcDd";
-        String upperCaseLetters = input.replaceAll("[^A-Z]", "");
-        String lowerCaseLetters = input.replaceAll("[^a-z]", "");
-        System.out.println("Заглавные буквы:" + upperCaseLetters);
-        System.out.println("Строчные буквы:" + lowerCaseLetters);
+        String up = input.replaceAll("[^A-Z]", "");
+        String low = input.replaceAll("[^a-z]", "");
+        System.out.println("big_letters" + up);
+        System.out.println("smal_lett" + low);
     }
 }
